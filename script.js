@@ -30,8 +30,6 @@ function taskadding(event) {
     vald.innerHTML = `<td><h1 id="valds">${tasks.value}</h1></td><td><button onclick="del(event)" id="comp">completed</button></td>`
 
 
-
-
     tas.append(vald)
     tasks.value = ""
 }
