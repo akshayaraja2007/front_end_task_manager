@@ -10,7 +10,7 @@ var tas = document.getElementById("tas");
 
 
 function dispon() {
-    login.style.display = "block";
+    login.style.display = "inline-block";
 }
 function dispof() {
     var a = luserid.value;
